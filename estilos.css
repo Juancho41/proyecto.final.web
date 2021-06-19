@@ -1,0 +1,11 @@
+#jumbotronprincipal {
+  background-image: url("../imagenes/agujero-negro.jpg");
+  background-size: cover;
+  height: 500px;
+  
+  
+}
+
+#container1-body {
+  background-color: white;
+}
