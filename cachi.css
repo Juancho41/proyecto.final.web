@@ -2,3 +2,21 @@
     height: auto;
     width: auto;
 }
+#juego {
+    
+}
+
+.centrado {
+    display: flex;
+    align-items: center;
+    
+}
+ul {
+    display: inline-block;
+}
+
+#imgCompu {
+    
+    max-width: 200px;
+    
+}
