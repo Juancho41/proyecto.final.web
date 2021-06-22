@@ -1,10 +1,24 @@
 #jumbotronprincipal {
   background-image: url("../imagenes/agujero-negro.jpg");
   background-size: cover;
-  height: 500px;
+  height: 600px;
   
 }
 
 #container1-body {
   background-color: white;
 }
+
+#polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  text-align: center;
+
+}
+
+#contCabecera {
+  background-image: url("../imagenes/agujero-negro.jpg");
+  height: 600px;
+}
+
