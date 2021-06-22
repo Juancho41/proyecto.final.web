@@ -1,10 +1,12 @@
 let puntajeCompu = 0;
 let puntajeJugador = 0;
+let jugadas = 0;
 
 
 
 
 function cachipum(jugador) {
+    jugadas++;
     let opciones = ['piedra', 'papel', 'tijera', 'lagarto', 'spock'];
 
     let jugadaCompu = opciones[Math.floor(Math.random() * opciones.length)];
@@ -147,17 +149,19 @@ function cachipum(jugador) {
         document.getElementById("resultadoMano").classList.remove('bg-success');
         
     }
-
+    let puntajeFinal = (puntajeJugador - puntajeCompu) * jugadas;
 
     document.getElementById('tabCompu').innerHTML = `<span>${puntajeCompu}</span>`;
     document.getElementById('tabJugador').innerHTML = `<span>${puntajeJugador}</span>`;
+    document.getElementById('jugadas').innerHTML = `<span>${jugadas}</span>`;
+    document.getElementById('puntajeFinal').innerHTML = `<span>${puntajeFinal}</span>`;
+    
     
 
 
 
 
-
-    console.log(resultado)
+    console.log(puntajeFinal)
 }
 
 
