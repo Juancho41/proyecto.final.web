@@ -245,6 +245,41 @@
         </div>
     </section>
 
+    <section id="enviopuntaje">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-4">
+
+                </div>
+                <div class="col-4">
+                    <p class="lead fw-normal text-black mb-4">
+                        Queres guardar tu puntaje en nuestro ranking? Ingresá tus datos y hace click en enviar!
+                    </p>
+                    <form id="contactForm" >
+                        <div class="form-floating">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                            <label for="name">Nombre</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+                        <div class="form-floating">
+                            <input class="form-control" id="email" type="email" placeholder="Enter your email..." data-sb-validations="required,email" />
+                            <label for="email">Email</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        
+                        
+                        <br />
+                        
+                        <button class="btn btn-primary text-uppercase disabled" id="submitButton" type="submit">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
     <footer class="bg-dark py-4 mt-auto">
         <div class="container px-5">
             <div class="row align-items-center justify-content-between flex-column flex-sm-row">
